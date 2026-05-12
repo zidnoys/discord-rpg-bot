@@ -7,6 +7,7 @@ import database as db
 from config import POINTS_PER_LEVEL
 from utils.embeds import (
     combat_embed,
+    get_classes_data,
     get_items_data,
     get_monsters_data,
     get_skills_data,
