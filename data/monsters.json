@@ -1,0 +1,134 @@
+{
+  "slime": {
+    "name": "Slime",
+    "emoji": "🟢",
+    "level_range": [1, 5],
+    "base_stats": {"hp": 30, "attack": 8, "defense": 4, "magic": 2, "speed": 5},
+    "element": "none",
+    "xp_reward": 20,
+    "gold_reward": [5, 15],
+    "drops": ["pocao_pequena"],
+    "drop_chance": 0.3
+  },
+  "goblin": {
+    "name": "Goblin",
+    "emoji": "👺",
+    "level_range": [1, 8],
+    "base_stats": {"hp": 45, "attack": 12, "defense": 6, "magic": 3, "speed": 10},
+    "element": "none",
+    "xp_reward": 35,
+    "gold_reward": [10, 25],
+    "drops": ["adaga_enferrujada"],
+    "drop_chance": 0.2
+  },
+  "lobo": {
+    "name": "Lobo Selvagem",
+    "emoji": "🐺",
+    "level_range": [3, 10],
+    "base_stats": {"hp": 55, "attack": 16, "defense": 8, "magic": 0, "speed": 18},
+    "element": "none",
+    "xp_reward": 45,
+    "gold_reward": [12, 30],
+    "drops": ["pele_de_lobo"],
+    "drop_chance": 0.35
+  },
+  "esqueleto": {
+    "name": "Esqueleto Guerreiro",
+    "emoji": "💀",
+    "level_range": [5, 15],
+    "base_stats": {"hp": 70, "attack": 20, "defense": 15, "magic": 5, "speed": 8},
+    "element": "trevas",
+    "xp_reward": 60,
+    "gold_reward": [20, 45],
+    "drops": ["espada_de_osso"],
+    "drop_chance": 0.15
+  },
+  "morcego_vampiro": {
+    "name": "Morcego Vampiro",
+    "emoji": "🦇",
+    "level_range": [5, 12],
+    "base_stats": {"hp": 50, "attack": 18, "defense": 6, "magic": 12, "speed": 22},
+    "element": "trevas",
+    "xp_reward": 50,
+    "gold_reward": [15, 35],
+    "drops": ["pocao_media"],
+    "drop_chance": 0.25
+  },
+  "golem_pedra": {
+    "name": "Golem de Pedra",
+    "emoji": "🗿",
+    "level_range": [10, 20],
+    "base_stats": {"hp": 150, "attack": 25, "defense": 35, "magic": 0, "speed": 3},
+    "element": "terra",
+    "xp_reward": 100,
+    "gold_reward": [40, 80],
+    "drops": ["escudo_de_pedra"],
+    "drop_chance": 0.15
+  },
+  "feiticeiro_sombrio": {
+    "name": "Feiticeiro Sombrio",
+    "emoji": "🧛",
+    "level_range": [10, 20],
+    "base_stats": {"hp": 80, "attack": 10, "defense": 10, "magic": 30, "speed": 14},
+    "element": "trevas",
+    "xp_reward": 90,
+    "gold_reward": [35, 70],
+    "drops": ["cajado_sombrio"],
+    "drop_chance": 0.12
+  },
+  "dragao_jovem": {
+    "name": "Dragão Jovem",
+    "emoji": "🐉",
+    "level_range": [15, 25],
+    "base_stats": {"hp": 200, "attack": 35, "defense": 25, "magic": 30, "speed": 15},
+    "element": "fogo",
+    "xp_reward": 200,
+    "gold_reward": [80, 150],
+    "drops": ["escama_de_dragao"],
+    "drop_chance": 0.1
+  },
+  "elemental_fogo": {
+    "name": "Elemental de Fogo",
+    "emoji": "🔥",
+    "level_range": [12, 22],
+    "base_stats": {"hp": 90, "attack": 15, "defense": 12, "magic": 35, "speed": 16},
+    "element": "fogo",
+    "xp_reward": 110,
+    "gold_reward": [45, 85],
+    "drops": ["essencia_de_fogo"],
+    "drop_chance": 0.2
+  },
+  "elemental_gelo": {
+    "name": "Elemental de Gelo",
+    "emoji": "❄️",
+    "level_range": [12, 22],
+    "base_stats": {"hp": 95, "attack": 12, "defense": 18, "magic": 32, "speed": 12},
+    "element": "gelo",
+    "xp_reward": 110,
+    "gold_reward": [45, 85],
+    "drops": ["essencia_de_gelo"],
+    "drop_chance": 0.2
+  },
+  "hidra": {
+    "name": "Hidra",
+    "emoji": "🐲",
+    "level_range": [20, 30],
+    "base_stats": {"hp": 300, "attack": 40, "defense": 30, "magic": 25, "speed": 10},
+    "element": "agua",
+    "xp_reward": 350,
+    "gold_reward": [120, 250],
+    "drops": ["dente_de_hidra"],
+    "drop_chance": 0.08
+  },
+  "demonio": {
+    "name": "Demônio Inferior",
+    "emoji": "👿",
+    "level_range": [25, 35],
+    "base_stats": {"hp": 250, "attack": 45, "defense": 28, "magic": 40, "speed": 20},
+    "element": "trevas",
+    "xp_reward": 400,
+    "gold_reward": [150, 300],
+    "drops": ["chifre_demoníaco"],
+    "drop_chance": 0.06
+  }
+}
