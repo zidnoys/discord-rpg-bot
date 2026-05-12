@@ -1,0 +1,282 @@
+{
+  "pocao_pequena": {
+    "name": "Poção Pequena",
+    "emoji": "🧪",
+    "type": "consumable",
+    "description": "Restaura 30 HP.",
+    "effect": {"heal_hp": 30},
+    "price": 15,
+    "sell_price": 7
+  },
+  "pocao_media": {
+    "name": "Poção Média",
+    "emoji": "🧪",
+    "type": "consumable",
+    "description": "Restaura 80 HP.",
+    "effect": {"heal_hp": 80},
+    "price": 40,
+    "sell_price": 20
+  },
+  "pocao_grande": {
+    "name": "Poção Grande",
+    "emoji": "🧪",
+    "type": "consumable",
+    "description": "Restaura 200 HP.",
+    "effect": {"heal_hp": 200},
+    "price": 100,
+    "sell_price": 50
+  },
+  "pocao_mana": {
+    "name": "Poção de Mana",
+    "emoji": "💧",
+    "type": "consumable",
+    "description": "Restaura 50 MP.",
+    "effect": {"heal_mp": 50},
+    "price": 35,
+    "sell_price": 17
+  },
+  "elixir": {
+    "name": "Elixir",
+    "emoji": "✨",
+    "type": "consumable",
+    "description": "Restaura 100 HP e 50 MP.",
+    "effect": {"heal_hp": 100, "heal_mp": 50},
+    "price": 120,
+    "sell_price": 60
+  },
+  "espada_ferro": {
+    "name": "Espada de Ferro",
+    "emoji": "⚔️",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Uma espada de ferro resistente.",
+    "stats": {"attack": 10},
+    "price": 80,
+    "sell_price": 40,
+    "required_level": 1
+  },
+  "adaga_enferrujada": {
+    "name": "Adaga Enferrujada",
+    "emoji": "🗡️",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Uma adaga velha mas ainda afiada.",
+    "stats": {"attack": 5, "speed": 3},
+    "price": 30,
+    "sell_price": 15,
+    "required_level": 1
+  },
+  "arco_curto": {
+    "name": "Arco Curto",
+    "emoji": "🏹",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Um arco simples para iniciantes.",
+    "stats": {"attack": 8, "speed": 2},
+    "price": 70,
+    "sell_price": 35,
+    "required_level": 1
+  },
+  "cajado_aprendiz": {
+    "name": "Cajado de Aprendiz",
+    "emoji": "🪄",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Um cajado básico que canaliza mana.",
+    "stats": {"magic": 10, "mp": 15},
+    "price": 75,
+    "sell_price": 37,
+    "required_level": 1
+  },
+  "espada_aco": {
+    "name": "Espada de Aço",
+    "emoji": "⚔️",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Uma espada de aço afiada e durável.",
+    "stats": {"attack": 18},
+    "price": 200,
+    "sell_price": 100,
+    "required_level": 5
+  },
+  "katana": {
+    "name": "Katana",
+    "emoji": "⚔️",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Uma lâmina elegante e letal.",
+    "stats": {"attack": 15, "speed": 5, "luck": 3},
+    "price": 250,
+    "sell_price": 125,
+    "required_level": 8
+  },
+  "rifle_cacador": {
+    "name": "Rifle de Caçador",
+    "emoji": "🔫",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Um rifle preciso para caçadores.",
+    "stats": {"attack": 22, "luck": 5},
+    "price": 300,
+    "sell_price": 150,
+    "required_level": 10
+  },
+  "cajado_sombrio": {
+    "name": "Cajado Sombrio",
+    "emoji": "🪄",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Um cajado imbuído com energia sombria.",
+    "stats": {"magic": 20, "mp": 25},
+    "price": 350,
+    "sell_price": 175,
+    "required_level": 10
+  },
+  "espada_de_osso": {
+    "name": "Espada de Osso",
+    "emoji": "🦴",
+    "type": "weapon",
+    "slot": "weapon",
+    "description": "Forjada com ossos de criaturas das trevas.",
+    "stats": {"attack": 16, "magic": 5},
+    "price": 180,
+    "sell_price": 90,
+    "required_level": 5
+  },
+  "escudo_madeira": {
+    "name": "Escudo de Madeira",
+    "emoji": "🛡️",
+    "type": "armor",
+    "slot": "shield",
+    "description": "Um escudo simples de madeira.",
+    "stats": {"defense": 8},
+    "price": 50,
+    "sell_price": 25,
+    "required_level": 1
+  },
+  "escudo_ferro": {
+    "name": "Escudo de Ferro",
+    "emoji": "🛡️",
+    "type": "armor",
+    "slot": "shield",
+    "description": "Um escudo resistente de ferro.",
+    "stats": {"defense": 15, "hp": 20},
+    "price": 150,
+    "sell_price": 75,
+    "required_level": 5
+  },
+  "escudo_de_pedra": {
+    "name": "Escudo de Pedra",
+    "emoji": "🛡️",
+    "type": "armor",
+    "slot": "shield",
+    "description": "Extremamente pesado mas muito resistente.",
+    "stats": {"defense": 25, "hp": 40, "speed": -5},
+    "price": 350,
+    "sell_price": 175,
+    "required_level": 10
+  },
+  "armadura_couro": {
+    "name": "Armadura de Couro",
+    "emoji": "🦺",
+    "type": "armor",
+    "slot": "armor",
+    "description": "Armadura leve de couro.",
+    "stats": {"defense": 6, "speed": 2},
+    "price": 60,
+    "sell_price": 30,
+    "required_level": 1
+  },
+  "armadura_ferro": {
+    "name": "Armadura de Ferro",
+    "emoji": "🦺",
+    "type": "armor",
+    "slot": "armor",
+    "description": "Armadura pesada de ferro.",
+    "stats": {"defense": 15, "hp": 30},
+    "price": 200,
+    "sell_price": 100,
+    "required_level": 5
+  },
+  "manto_mago": {
+    "name": "Manto do Mago",
+    "emoji": "🧥",
+    "type": "armor",
+    "slot": "armor",
+    "description": "Um manto encantado que aumenta o poder mágico.",
+    "stats": {"defense": 5, "magic": 8, "mp": 20},
+    "price": 180,
+    "sell_price": 90,
+    "required_level": 5
+  },
+  "anel_sorte": {
+    "name": "Anel da Sorte",
+    "emoji": "💍",
+    "type": "accessory",
+    "slot": "accessory",
+    "description": "Aumenta a sorte do portador.",
+    "stats": {"luck": 10},
+    "price": 200,
+    "sell_price": 100,
+    "required_level": 3
+  },
+  "amuleto_vida": {
+    "name": "Amuleto de Vida",
+    "emoji": "📿",
+    "type": "accessory",
+    "slot": "accessory",
+    "description": "Um amuleto que fortalece a vitalidade.",
+    "stats": {"hp": 50, "defense": 3},
+    "price": 250,
+    "sell_price": 125,
+    "required_level": 5
+  },
+  "pele_de_lobo": {
+    "name": "Pele de Lobo",
+    "emoji": "🐺",
+    "type": "material",
+    "description": "Material obtido de lobos. Pode ser vendido.",
+    "price": 0,
+    "sell_price": 20
+  },
+  "escama_de_dragao": {
+    "name": "Escama de Dragão",
+    "emoji": "🐉",
+    "type": "material",
+    "description": "Material raro obtido de dragões.",
+    "price": 0,
+    "sell_price": 200
+  },
+  "essencia_de_fogo": {
+    "name": "Essência de Fogo",
+    "emoji": "🔥",
+    "type": "material",
+    "description": "Essência elemental de fogo.",
+    "price": 0,
+    "sell_price": 80
+  },
+  "essencia_de_gelo": {
+    "name": "Essência de Gelo",
+    "emoji": "❄️",
+    "type": "material",
+    "description": "Essência elemental de gelo.",
+    "price": 0,
+    "sell_price": 80
+  },
+  "dente_de_hidra": {
+    "name": "Dente de Hidra",
+    "emoji": "🦷",
+    "type": "material",
+    "description": "Um dente venenoso de hidra.",
+    "price": 0,
+    "sell_price": 150
+  },
+  "chifre_demoníaco": {
+    "name": "Chifre Demoníaco",
+    "emoji": "👿",
+    "type": "material",
+    "description": "Um chifre imbuído com energia demoníaca.",
+    "price": 0,
+    "sell_price": 250
+  }
+}

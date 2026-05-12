@@ -1,0 +1,140 @@
+{
+  "guerreiro": {
+    "name": "Guerreiro",
+    "emoji": "⚔️",
+    "description": "Tanque corpo-a-corpo com alta defesa e HP. Especialista em resistir e causar dano físico constante.",
+    "base_stats": {
+      "hp": 150,
+      "mp": 30,
+      "attack": 18,
+      "defense": 20,
+      "magic": 5,
+      "speed": 10,
+      "luck": 8
+    },
+    "growth": {
+      "hp": 15,
+      "mp": 3,
+      "attack": 3,
+      "defense": 4,
+      "magic": 1,
+      "speed": 1,
+      "luck": 1
+    }
+  },
+  "lutador": {
+    "name": "Lutador",
+    "emoji": "🥊",
+    "description": "Combatente ágil que usa combos e contra-ataques devastadores.",
+    "base_stats": {
+      "hp": 120,
+      "mp": 40,
+      "attack": 20,
+      "defense": 14,
+      "magic": 6,
+      "speed": 18,
+      "luck": 10
+    },
+    "growth": {
+      "hp": 12,
+      "mp": 4,
+      "attack": 4,
+      "defense": 2,
+      "magic": 1,
+      "speed": 3,
+      "luck": 1
+    }
+  },
+  "atirador": {
+    "name": "Atirador",
+    "emoji": "🔫",
+    "description": "Especialista em dano à distância com alta precisão e chance de crítico.",
+    "base_stats": {
+      "hp": 100,
+      "mp": 35,
+      "attack": 22,
+      "defense": 10,
+      "magic": 8,
+      "speed": 16,
+      "luck": 15
+    },
+    "growth": {
+      "hp": 10,
+      "mp": 3,
+      "attack": 4,
+      "defense": 1,
+      "magic": 1,
+      "speed": 3,
+      "luck": 3
+    }
+  },
+  "mago": {
+    "name": "Mago",
+    "emoji": "🧙",
+    "description": "Mestre das artes arcanas. Usa magia poderosa com dano em área e efeitos elementais.",
+    "base_stats": {
+      "hp": 85,
+      "mp": 80,
+      "attack": 8,
+      "defense": 8,
+      "magic": 25,
+      "speed": 12,
+      "luck": 10
+    },
+    "growth": {
+      "hp": 8,
+      "mp": 8,
+      "attack": 1,
+      "defense": 1,
+      "magic": 5,
+      "speed": 2,
+      "luck": 1
+    }
+  },
+  "curandeiro": {
+    "name": "Curandeiro",
+    "emoji": "🩺",
+    "description": "Suporte especializado em cura e proteção. Essencial em dungeons difíceis.",
+    "base_stats": {
+      "hp": 95,
+      "mp": 70,
+      "attack": 8,
+      "defense": 14,
+      "magic": 20,
+      "speed": 10,
+      "luck": 12
+    },
+    "growth": {
+      "hp": 9,
+      "mp": 7,
+      "attack": 1,
+      "defense": 2,
+      "magic": 4,
+      "speed": 1,
+      "luck": 2
+    }
+  },
+  "assassino": {
+    "name": "Assassino",
+    "emoji": "🗡️",
+    "description": "Mestre da furtividade com dano crítico massivo. Ataca nas sombras.",
+    "base_stats": {
+      "hp": 90,
+      "mp": 45,
+      "attack": 24,
+      "defense": 8,
+      "magic": 6,
+      "speed": 22,
+      "luck": 18
+    },
+    "growth": {
+      "hp": 9,
+      "mp": 4,
+      "attack": 4,
+      "defense": 1,
+      "magic": 1,
+      "speed": 4,
+      "luck": 3
+    }
+  }
+}
